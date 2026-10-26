@@ -1,0 +1,9 @@
+PS C:\Users\kunal\GitWork\mcino-Introduction-to-Git-and-GitHub> curl.exe -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12916" | ConvertFrom-Json | Select-Object number, title, state, html_url, @{Name="SourceRepository";Expression={$_.head.repo.full_name}}, @{Name="SourceBranch";Expression={$_.head.ref}}
+
+
+number           : 12916
+title            : Prepare revert branch pull request
+state            : closed
+html_url         : https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12916
+SourceRepository : Munnaluru-Thanuja/mcino-Introduction-to-Git-and-GitHub
+SourceBranch     : bug-fix-revert
