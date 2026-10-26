@@ -1,0 +1,11 @@
+PS C:\Users\kunal\GitWork\mcino-Introduction-to-Git-and-GitHub> git branch -a
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/upstream/HEAD -> upstream/main
+  remotes/upstream/main
+
+PS C:\Users\kunal\GitWork\mcino-Introduction-to-Git-and-GitHub> git branch -vv
+  bug-fix-typo 7627b84 Fix simple interest formula typo
+* main         7627b84 [origin/main: ahead 1] Fix simple interest formula typo
